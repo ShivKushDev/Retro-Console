@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/retro_console.dir/src/main.cpp.o CMakeFiles/retro_console.dir/src/ui.cpp.o CMakeFiles/retro_console.dir/src/emulator_launcher.cpp.o -o retro_console  -L/usr/lib/x86_64-linux-gnu  -lSDL2 
