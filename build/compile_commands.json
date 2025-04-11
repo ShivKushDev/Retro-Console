@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/media/sf_Ubuntu/C++ Game Emulator/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/retro_console.dir/src/main.cpp.o -c \"/media/sf_Ubuntu/C++ Game Emulator/src/main.cpp\"",
+  "file": "/media/sf_Ubuntu/C++ Game Emulator/src/main.cpp",
+  "output": "CMakeFiles/retro_console.dir/src/main.cpp.o"
+},
+{
+  "directory": "/media/sf_Ubuntu/C++ Game Emulator/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/retro_console.dir/src/ui.cpp.o -c \"/media/sf_Ubuntu/C++ Game Emulator/src/ui.cpp\"",
+  "file": "/media/sf_Ubuntu/C++ Game Emulator/src/ui.cpp",
+  "output": "CMakeFiles/retro_console.dir/src/ui.cpp.o"
+},
+{
+  "directory": "/media/sf_Ubuntu/C++ Game Emulator/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/retro_console.dir/src/emulator_launcher.cpp.o -c \"/media/sf_Ubuntu/C++ Game Emulator/src/emulator_launcher.cpp\"",
+  "file": "/media/sf_Ubuntu/C++ Game Emulator/src/emulator_launcher.cpp",
+  "output": "CMakeFiles/retro_console.dir/src/emulator_launcher.cpp.o"
+}
+]

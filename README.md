@@ -41,19 +41,35 @@ make
 
 ## Usage
 
-1. Create a `games` directory in the same location as the executable:
-```bash
-mkdir games
-```
+1. Place your .nes ROM files in the `games` directory at the project root level (not in the build directory).
 
-2. Copy your .nes ROM files into the games directory.
-
-3. Run the application:
+2. Run the application:
 ```bash
-./retro_console
+./build/retro_console
 ```
 
 4. Use the number keys to select a game to play, or press 0 to exit.
+
+## Troubleshooting
+
+### CMake Path Mismatch Error
+
+If you encounter a CMake error about path mismatch or different source directories, follow these steps to resolve it:
+
+1. Remove the existing build directory:
+```bash
+rm -rf build
+```
+
+2. Create a new build directory and run CMake with the explicit source path:
+```bash
+mkdir build
+cd build
+cmake -S /path/to/your/project .
+make
+```
+
+Replace `/path/to/your/project` with the actual path to the project directory. This ensures CMake uses the correct source directory path.
 
 ## Project Structure
 
